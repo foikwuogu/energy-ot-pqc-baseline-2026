@@ -1,0 +1,4 @@
+2026-09-23 | ong_ot_dataset_v1.1.csv | 33573121 bytes | sha256:b5e3f2331034e371dd5ad2ad98f3a509acd715e5327d06917029d51b216e7625 | https://doi.org/10.5281/zenodo.22729882 (local copy of the published file) | frozen advisory snapshot
+2026-09-23 | pqc_protocol_crosswalk_v1.0.csv | 12069 bytes | sha256:679c1773e8e78a49180db2766a6e7d86887862526f1c64c58d61b30e59a9e969 | https://doi.org/10.5281/zenodo.22730718 (data/processed/crosswalk.csv) | vendored crosswalk input
+2026-09-23 | pqc_policy_timeline_v1.0.csv | 4173 bytes | sha256:6c5dabe730e336eba499769f128f57fb0b5ca624f5b30643492bbdf589715567 | https://doi.org/10.5281/zenodo.22730718 (data/processed/timeline.csv) | vendored crosswalk input
+2026-09-23 | cbom_component_crosswalk_v0.1.0.csv | 7742 bytes | sha256:1272ec76812f202b35229a04e45cb22b1a8b2d346cb47206fe4223ffc5c2b056 | https://github.com/foikwuogu/cbom-builder (data/processed/pqc_crosswalk.csv, v0.1.0) | vendored crosswalk input

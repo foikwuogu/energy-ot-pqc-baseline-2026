@@ -1,0 +1,583 @@
+{
+  "edition": 2026,
+  "baseline_date": "2026-09-23",
+  "snapshot_cutoff": "2026-09-10",
+  "ytd_label": "1 Jan - 10 Sep",
+  "build": {
+    "input_rows": 27944,
+    "master_rows": 13972,
+    "unique_pairs": 13791,
+    "advisories_total": 3976,
+    "advisories_in_scope": 1678,
+    "advisories_in_scope_with_any_crypto_cwe": 341
+  },
+  "inputs": {
+    "ong_doi": "10.5281/zenodo.22729882",
+    "crosswalk_doi": "10.5281/zenodo.22730718",
+    "cbom_repo": "https://github.com/foikwuogu/cbom-builder",
+    "sources_pulled": "2026-09-12"
+  },
+  "category_labels": {
+    "weak_or_broken_algorithm": "Weak, broken or downgradeable algorithm",
+    "hardcoded_secrets": "Hard-coded keys or credentials",
+    "credential_protection": "Unprotected stored or transmitted credentials",
+    "key_management": "Key management and key exchange",
+    "cert_signature_validation": "Certificate, signature or integrity validation",
+    "randomness": "Insufficient randomness",
+    "generic_crypto": "Cryptographic issues (category)",
+    "no_encryption": "Missing encryption or cleartext transmission"
+  },
+  "ytd_current": {
+    "advisories": 168,
+    "any_crypto": 44,
+    "any_crypto_pct": 26.2,
+    "agility_debt": 41,
+    "agility_debt_pct": 24.4,
+    "categories": {
+      "weak_or_broken_algorithm": 7,
+      "hardcoded_secrets": 11,
+      "credential_protection": 18,
+      "key_management": 0,
+      "cert_signature_validation": 6,
+      "randomness": 4,
+      "generic_crypto": 0,
+      "no_encryption": 8
+    },
+    "categories_pct": {
+      "weak_or_broken_algorithm": 4.2,
+      "hardcoded_secrets": 6.5,
+      "credential_protection": 10.7,
+      "key_management": 0.0,
+      "cert_signature_validation": 3.6,
+      "randomness": 2.4,
+      "generic_crypto": 0.0,
+      "no_encryption": 4.8
+    },
+    "vendors_with_crypto_weakness": 29
+  },
+  "ytd_current_excl_ev": {
+    "advisories": 155,
+    "any_crypto": 33,
+    "any_crypto_pct": 21.3,
+    "agility_debt": 30,
+    "agility_debt_pct": 19.4,
+    "categories": {
+      "weak_or_broken_algorithm": 7,
+      "hardcoded_secrets": 11,
+      "credential_protection": 7,
+      "key_management": 0,
+      "cert_signature_validation": 6,
+      "randomness": 4,
+      "generic_crypto": 0,
+      "no_encryption": 8
+    },
+    "categories_pct": {
+      "weak_or_broken_algorithm": 4.5,
+      "hardcoded_secrets": 7.1,
+      "credential_protection": 4.5,
+      "key_management": 0.0,
+      "cert_signature_validation": 3.9,
+      "randomness": 2.6,
+      "generic_crypto": 0.0,
+      "no_encryption": 5.2
+    },
+    "vendors_with_crypto_weakness": 18
+  },
+  "ytd_current_ev_only": {
+    "advisories": 13,
+    "any_crypto": 11,
+    "any_crypto_pct": 84.6,
+    "agility_debt": 11,
+    "agility_debt_pct": 84.6,
+    "categories": {
+      "weak_or_broken_algorithm": 0,
+      "hardcoded_secrets": 0,
+      "credential_protection": 11,
+      "key_management": 0,
+      "cert_signature_validation": 0,
+      "randomness": 0,
+      "generic_crypto": 0,
+      "no_encryption": 0
+    },
+    "categories_pct": {
+      "weak_or_broken_algorithm": 0.0,
+      "hardcoded_secrets": 0.0,
+      "credential_protection": 84.6,
+      "key_management": 0.0,
+      "cert_signature_validation": 0.0,
+      "randomness": 0.0,
+      "generic_crypto": 0.0,
+      "no_encryption": 0.0
+    },
+    "vendors_with_crypto_weakness": 11
+  },
+  "ytd_prior": {
+    "advisories": 140,
+    "any_crypto": 21,
+    "any_crypto_pct": 15.0,
+    "agility_debt": 15,
+    "agility_debt_pct": 10.7,
+    "categories": {
+      "weak_or_broken_algorithm": 3,
+      "hardcoded_secrets": 6,
+      "credential_protection": 3,
+      "key_management": 0,
+      "cert_signature_validation": 7,
+      "randomness": 2,
+      "generic_crypto": 0,
+      "no_encryption": 8
+    },
+    "categories_pct": {
+      "weak_or_broken_algorithm": 2.1,
+      "hardcoded_secrets": 4.3,
+      "credential_protection": 2.1,
+      "key_management": 0.0,
+      "cert_signature_validation": 5.0,
+      "randomness": 1.4,
+      "generic_crypto": 0.0,
+      "no_encryption": 5.7
+    },
+    "vendors_with_crypto_weakness": 12
+  },
+  "hist": {
+    "advisories": 1466,
+    "any_crypto": 297,
+    "any_crypto_pct": 20.3,
+    "agility_debt": 247,
+    "agility_debt_pct": 16.8,
+    "categories": {
+      "weak_or_broken_algorithm": 62,
+      "hardcoded_secrets": 77,
+      "credential_protection": 77,
+      "key_management": 4,
+      "cert_signature_validation": 48,
+      "randomness": 27,
+      "generic_crypto": 10,
+      "no_encryption": 83
+    },
+    "categories_pct": {
+      "weak_or_broken_algorithm": 4.2,
+      "hardcoded_secrets": 5.3,
+      "credential_protection": 5.3,
+      "key_management": 0.3,
+      "cert_signature_validation": 3.3,
+      "randomness": 1.8,
+      "generic_crypto": 0.7,
+      "no_encryption": 5.7
+    },
+    "vendors_with_crypto_weakness": 87
+  },
+  "hist_years": "2012-2025",
+  "trend": [
+    {
+      "year": 2012,
+      "advisories": 42,
+      "any_crypto": 13,
+      "any_crypto_pct": 31.0,
+      "agility_debt_pct": 23.8,
+      "hardcoded_secrets_pct": 9.5,
+      "no_encryption_pct": 7.1
+    },
+    {
+      "year": 2013,
+      "advisories": 46,
+      "any_crypto": 3,
+      "any_crypto_pct": 6.5,
+      "agility_debt_pct": 6.5,
+      "hardcoded_secrets_pct": 6.5,
+      "no_encryption_pct": 0.0
+    },
+    {
+      "year": 2014,
+      "advisories": 41,
+      "any_crypto": 8,
+      "any_crypto_pct": 19.5,
+      "agility_debt_pct": 17.1,
+      "hardcoded_secrets_pct": 2.4,
+      "no_encryption_pct": 2.4
+    },
+    {
+      "year": 2015,
+      "advisories": 82,
+      "any_crypto": 20,
+      "any_crypto_pct": 24.4,
+      "agility_debt_pct": 22.0,
+      "hardcoded_secrets_pct": 11.0,
+      "no_encryption_pct": 3.7
+    },
+    {
+      "year": 2016,
+      "advisories": 89,
+      "any_crypto": 29,
+      "any_crypto_pct": 32.6,
+      "agility_debt_pct": 23.6,
+      "hardcoded_secrets_pct": 4.5,
+      "no_encryption_pct": 10.1
+    },
+    {
+      "year": 2017,
+      "advisories": 92,
+      "any_crypto": 16,
+      "any_crypto_pct": 17.4,
+      "agility_debt_pct": 16.3,
+      "hardcoded_secrets_pct": 4.3,
+      "no_encryption_pct": 1.1
+    },
+    {
+      "year": 2018,
+      "advisories": 117,
+      "any_crypto": 12,
+      "any_crypto_pct": 10.3,
+      "agility_debt_pct": 9.4,
+      "hardcoded_secrets_pct": 1.7,
+      "no_encryption_pct": 0.9
+    },
+    {
+      "year": 2019,
+      "advisories": 117,
+      "any_crypto": 25,
+      "any_crypto_pct": 21.4,
+      "agility_debt_pct": 17.9,
+      "hardcoded_secrets_pct": 8.5,
+      "no_encryption_pct": 6.0
+    },
+    {
+      "year": 2020,
+      "advisories": 123,
+      "any_crypto": 22,
+      "any_crypto_pct": 17.9,
+      "agility_debt_pct": 13.0,
+      "hardcoded_secrets_pct": 3.3,
+      "no_encryption_pct": 10.6
+    },
+    {
+      "year": 2021,
+      "advisories": 130,
+      "any_crypto": 32,
+      "any_crypto_pct": 24.6,
+      "agility_debt_pct": 20.0,
+      "hardcoded_secrets_pct": 3.8,
+      "no_encryption_pct": 6.9
+    },
+    {
+      "year": 2022,
+      "advisories": 117,
+      "any_crypto": 23,
+      "any_crypto_pct": 19.7,
+      "agility_debt_pct": 17.1,
+      "hardcoded_secrets_pct": 7.7,
+      "no_encryption_pct": 3.4
+    },
+    {
+      "year": 2023,
+      "advisories": 105,
+      "any_crypto": 28,
+      "any_crypto_pct": 26.7,
+      "agility_debt_pct": 21.9,
+      "hardcoded_secrets_pct": 7.6,
+      "no_encryption_pct": 10.5
+    },
+    {
+      "year": 2024,
+      "advisories": 177,
+      "any_crypto": 39,
+      "any_crypto_pct": 22.0,
+      "agility_debt_pct": 20.3,
+      "hardcoded_secrets_pct": 4.5,
+      "no_encryption_pct": 6.8
+    },
+    {
+      "year": 2025,
+      "advisories": 188,
+      "any_crypto": 27,
+      "any_crypto_pct": 14.4,
+      "agility_debt_pct": 10.6,
+      "hardcoded_secrets_pct": 3.2,
+      "no_encryption_pct": 4.8
+    },
+    {
+      "year": 2026,
+      "advisories": 168,
+      "any_crypto": 44,
+      "any_crypto_pct": 26.2,
+      "agility_debt_pct": 24.4,
+      "hardcoded_secrets_pct": 6.5,
+      "no_encryption_pct": 4.8
+    }
+  ],
+  "trend_summary": {
+    "min_pct": 6.5,
+    "max_pct": 32.6,
+    "mean_pct_unweighted": 20.6
+  },
+  "crypto_vendors_ytd_top": [
+    {
+      "vendor": "Siemens",
+      "advisories": 6
+    },
+    {
+      "vendor": "Schneider Electric",
+      "advisories": 6
+    },
+    {
+      "vendor": "Yokogawa",
+      "advisories": 3
+    },
+    {
+      "vendor": "Johnson Controls Inc.",
+      "advisories": 2
+    },
+    {
+      "vendor": "B&R Industrial Automation GmbH",
+      "advisories": 2
+    },
+    {
+      "vendor": "Rockwell Automation",
+      "advisories": 2
+    },
+    {
+      "vendor": "CTEK",
+      "advisories": 1
+    },
+    {
+      "vendor": "CloudCharge",
+      "advisories": 1
+    }
+  ],
+  "cbom": {
+    "components": 16,
+    "broken_by_shor": 11,
+    "weakened_by_grover": 3,
+    "no_crypto": 2,
+    "cnsa2_exclusive_2030": 11
+  },
+  "protocols": {
+    "families": 7,
+    "with_quantum_vulnerable_asymmetric": 7,
+    "with_published_pqc_mechanism": 0
+  },
+  "crosswalk": {
+    "rows": 13,
+    "protocols": 10
+  },
+  "deadlines": {
+    "omb_tls13": {
+      "date": "2030-01-02",
+      "years_from_baseline": 3.3
+    },
+    "eo14412_key_establishment": {
+      "date": "2030-12-31",
+      "years_from_baseline": 4.3
+    },
+    "eo14412_signatures": {
+      "date": "2031-12-31",
+      "years_from_baseline": 5.3
+    },
+    "omb_phase5_complete": {
+      "date": "2035",
+      "years_from_baseline": 8.3
+    }
+  },
+  "timeline_events": 11,
+  "policy_signals": [
+    {
+      "date": "2024-10-29",
+      "instrument": "CISA/DHS, Post-Quantum Considerations for Operational Technology",
+      "what_it_says_about_ot": "Recommends OT network segmentation, crypto-agility, prioritising internet-facing edge devices, and starting a PQC plan now; sets no deadline.",
+      "binding_on_energy_operators": "no (guidance)",
+      "source_url": "https://www.cisa.gov/sites/default/files/2024-10/Post-Quantum%20Considerations%20for%20Operational%20Technology%20%28508%29.pdf",
+      "author_verified": "yes"
+    },
+    {
+      "date": "2025-11",
+      "instrument": "PQCUA (Post-Quantum Cryptography for OPC UA), Horizon Europe proposal (Systerel, Fraunhofer IOSB, Thales and others; OPC Foundation supporting)",
+      "what_it_says_about_ot": "Research consortium proposal to bring PQC to OPC UA; no OPC Foundation PQC SecurityPolicy published as of the scan.",
+      "binding_on_energy_operators": "no (research)",
+      "source_url": "https://www.systerel.fr/en/news/post-quantum-cryptography-opc-ua-initiative/",
+      "author_verified": "yes"
+    },
+    {
+      "date": "2026-01-26",
+      "instrument": "CISA, Product Categories for Technologies That Use Post-Quantum Cryptography Standards (under EO 14306)",
+      "what_it_says_about_ot": "Lists cloud, web, networking, endpoint, collaboration, IAM/PKI/HSM, telecom, computing and enterprise-security categories. States that \"operational technology (OT) and Internet of Things (IoT) devices, are outside the current scope.\"",
+      "binding_on_energy_operators": "no (procurement guidance for federal buyers)",
+      "source_url": "https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards",
+      "author_verified": "yes"
+    },
+    {
+      "date": "2026-04-07",
+      "instrument": "Charter of Trust PQC Working Group, Decrypting the Future: Global Timelines for PQC",
+      "what_it_says_about_ot": "Names OT among four highest-priority PQC domains; stresses 10-20+ year OT lifetimes and non-upgradable field devices.",
+      "binding_on_energy_operators": "no (industry paper)",
+      "source_url": "https://www.charteroftrust.com/wp-content/uploads/2026/04/20260115_PQC-Decrypting-the-Future_FINAL-1.pdf",
+      "author_verified": "yes"
+    }
+  ],
+  "vendor_scan": {
+    "vendors": 10,
+    "product_level_pqc": 0,
+    "research_or_ecosystem": 1,
+    "general_guidance": 1,
+    "legacy_quantum_safe_claim": 1,
+    "none_found": 7,
+    "rows": [
+      {
+        "vendor": "Siemens",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "Research and ecosystem statements (2023 blog on PQC research; founding member of Charter of Trust whose PQC working group published a global PQC timelines paper in April 2026). No product-level PQC availability found.",
+        "signal_level": "research_or_ecosystem",
+        "evidence_date": "2026-04-07",
+        "evidence_url": "https://www.charteroftrust.com/wp-content/uploads/2026/04/20260115_PQC-Decrypting-the-Future_FINAL-1.pdf",
+        "notes": "Also https://blog.siemens.com/en/2023/01/the-era-of-post-quantum-cryptography/",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "Schneider Electric",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "No public PQC product statement found in this scan.",
+        "signal_level": "none_found",
+        "evidence_date": "",
+        "evidence_url": "https://www.se.com",
+        "notes": "Absence in a desk scan is not evidence of absence.",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "ABB",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "General PQC guidance article (hybrid deployment; EU 2030/2035 timelines). No products or algorithms named.",
+        "signal_level": "general_guidance",
+        "evidence_date": "2026-06-29",
+        "evidence_url": "https://www.abb.com/global/en/company/innovation/news/quantum-security",
+        "notes": "",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "Hitachi Energy",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "'Quantum-safe' encryption on FOX615 utility multiplexers (2019 customer story; physically random keys for symmetric encryption, not a FIPS 203/204/205 algorithm).",
+        "signal_level": "legacy_quantum_safe_claim",
+        "evidence_date": "2019-10-28",
+        "evidence_url": "https://new.abb.com/news/detail/40709/abbs-quantum-safe-encryption-helps-secure-omans-power-network",
+        "notes": "Symmetric-key approach; not NIST PQC.",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "Rockwell Automation",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "No public PQC product statement found in this scan.",
+        "signal_level": "none_found",
+        "evidence_date": "",
+        "evidence_url": "https://www.rockwellautomation.com",
+        "notes": "",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "Johnson Controls Inc.",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "No public PQC product statement found in this scan.",
+        "signal_level": "none_found",
+        "evidence_date": "",
+        "evidence_url": "https://www.johnsoncontrols.com",
+        "notes": "",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "B&R Industrial Automation GmbH",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories (ABB group)",
+        "public_pqc_signal": "No public PQC product statement found in this scan.",
+        "signal_level": "none_found",
+        "evidence_date": "",
+        "evidence_url": "https://www.br-automation.com",
+        "notes": "",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "MZ Automation GmbH",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "No public PQC product statement found in this scan.",
+        "signal_level": "none_found",
+        "evidence_date": "",
+        "evidence_url": "https://www.mz-automation.de",
+        "notes": "IEC 61850 / IEC 60870-5-104 protocol stacks vendor.",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "Yokogawa",
+        "rank_by_2026_energy_advisories_note": "top-10 vendor in 2026 ONG-relevant advisories",
+        "public_pqc_signal": "No public PQC product statement found in this scan.",
+        "signal_level": "none_found",
+        "evidence_date": "",
+        "evidence_url": "https://www.yokogawa.com/news/press-releases/2026/",
+        "notes": "",
+        "author_verified": "yes"
+      },
+      {
+        "vendor": "Schweitzer Engineering Laboratories",
+        "rank_by_2026_energy_advisories_note": "major US grid OT vendor (added for coverage)",
+        "public_pqc_signal": "No public PQC product statement found in this scan.",
+        "signal_level": "none_found",
+        "evidence_date": "",
+        "evidence_url": "https://selinc.com",
+        "notes": "",
+        "author_verified": "yes"
+      }
+    ]
+  },
+  "cisa_pqc_categories_ot": 0,
+  "indicators": [
+    {
+      "id": "I1",
+      "indicator": "Energy OT protocol families whose security standard relies on quantum-vulnerable asymmetric cryptography",
+      "value_2026": "7 of 7",
+      "source": "config/protocol_pqc_status.csv"
+    },
+    {
+      "id": "I2",
+      "indicator": "Energy OT protocol families with a published PQC mechanism in the standard",
+      "value_2026": "0 of 7",
+      "source": "config/protocol_pqc_status.csv"
+    },
+    {
+      "id": "I3",
+      "indicator": "OT cryptographic components broken by Shor's algorithm (CBOM crosswalk)",
+      "value_2026": "11 of 16",
+      "source": "CBOM Builder v0.1.0 crosswalk"
+    },
+    {
+      "id": "I4",
+      "indicator": "Energy OT advisories citing any cryptographic weakness, 2026 (1 Jan - 10 Sep)",
+      "value_2026": "26.2% (44 of 168)",
+      "source": "code/02-03"
+    },
+    {
+      "id": "I5",
+      "indicator": "Energy OT advisories citing a crypto-agility-debt weakness, 2026",
+      "value_2026": "24.4% (41 of 168)",
+      "source": "code/02-03"
+    },
+    {
+      "id": "I6",
+      "indicator": "Energy OT advisories citing hard-coded keys or credentials, 2026",
+      "value_2026": "6.5% (11)",
+      "source": "code/02-03"
+    },
+    {
+      "id": "I7",
+      "indicator": "OT/ICS categories on CISA's PQC product-categories list",
+      "value_2026": "0",
+      "source": "config/policy_signals.csv"
+    },
+    {
+      "id": "I8",
+      "indicator": "Top energy OT vendors with a public, product-level PQC availability statement (desk scan)",
+      "value_2026": "0 of 10",
+      "source": "config/vendor_pqc_scan.csv"
+    },
+    {
+      "id": "I9",
+      "indicator": "Years from baseline to the federal key-establishment migration deadline (EO 14412, high-value systems)",
+      "value_2026": "4.3",
+      "source": "PQC crosswalk v1.0 timeline"
+    }
+  ]
+}

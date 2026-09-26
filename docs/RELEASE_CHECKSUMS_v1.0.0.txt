@@ -1,0 +1,4 @@
+# v1.0.0 files uploaded to Zenodo; MD5 matched the Zenodo record on 2026-09-26
+e53557079cc2ab9963885184ac76ec9b  Energy_OT_PQC_Baseline_2026.pdf
+e3ad8cdce993ca5700862a5dd0c1241c  Energy_OT_PQC_Baseline_2026.docx
+f19e16fc5899009341840faea998b810  energy-ot-pqc-baseline-2026-v1.0.0-source.zip

@@ -1,0 +1,11 @@
+{
+  "_comment": "Scope and windows for the PQC baseline. Identical to the companion annual exposure report except that EV-charging advisories are INCLUDED: charge-point management uses TLS/PKI and is part of the energy OT cryptographic surface.",
+  "dedup": {"keep_source_file_pattern": "CISA_ICS_ADV_Master", "key": ["cve_id", "ICS-CERT_Number"]},
+  "scope": {
+    "sector_regex": "energy|oil and gas",
+    "include_mapped_ong_product_classes": true,
+    "us_distribution_regex": "worldwide|united states|\\bus\\b|\\busa\\b|north america|americas|global|multiple"
+  },
+  "windows": {"edition_year": 2026, "snapshot_cutoff": "2026-09-10", "ytd_start_month_day": "01-01", "ytd_end_month_day": "09-10", "trend_start_year": 2012},
+  "baseline_date": "2026-09-23"
+}

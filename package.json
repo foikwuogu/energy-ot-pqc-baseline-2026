@@ -1,0 +1,1 @@
+{ "name": "energy-ot-pqc-baseline-2026", "version": "1.0.0", "private": true, "license": "MIT", "dependencies": { "docx": "^9.0.0" } }

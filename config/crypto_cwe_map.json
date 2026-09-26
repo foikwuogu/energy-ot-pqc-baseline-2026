@@ -1,0 +1,15 @@
+{
+  "_comment": "Maps MITRE CWE IDs to the cryptographic-weakness categories used as PQC-readiness proxies. A CWE not listed here is not counted as cryptographic. Category membership is the authors' judgment (docs/VERIFY_CHECKLIST.md). 'no_encryption' is reported separately: a product with no cryptography has nothing to migrate and must first adopt cryptography at all.",
+  "categories": {
+    "weak_or_broken_algorithm": {"label": "Weak, broken or downgradeable algorithm", "cwes": [326, 327, 328, 757, 759, 760, 780, 916, 1240]},
+    "hardcoded_secrets": {"label": "Hard-coded keys or credentials", "cwes": [259, 321, 798]},
+    "credential_protection": {"label": "Unprotected stored or transmitted credentials", "cwes": [256, 257, 260, 261, 522]},
+    "key_management": {"label": "Key management and key exchange", "cwes": [320, 322, 323, 324, 325]},
+    "cert_signature_validation": {"label": "Certificate, signature or integrity validation", "cwes": [295, 296, 297, 298, 299, 345, 347, 354]},
+    "randomness": {"label": "Insufficient randomness", "cwes": [330, 331, 332, 334, 335, 336, 337, 338, 340]},
+    "generic_crypto": {"label": "Cryptographic issues (category)", "cwes": [310]},
+    "no_encryption": {"label": "Missing encryption or cleartext transmission", "cwes": [311, 312, 319, 523, 614]}
+  },
+  "agility_debt_categories": ["weak_or_broken_algorithm", "hardcoded_secrets", "key_management", "cert_signature_validation", "randomness", "generic_crypto", "credential_protection"],
+  "agility_debt_why": "Products whose advisories cite these weaknesses already handle cryptography in a way that is fixed in firmware, unauthenticated, or weakly implemented. A PQC migration replaces algorithms and keys, so each of these is a direct obstacle to it."
+}

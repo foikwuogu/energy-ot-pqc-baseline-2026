@@ -1,0 +1,44 @@
+{
+  "upload_type": "publication",
+  "publication_type": "report",
+  "title": "PQC Readiness of the Energy OT Stack: A 2026 Baseline",
+  "description": "<p>Technical report establishing nine re-measurable indicators of post-quantum cryptography (PQC) readiness for energy-sector operational technology: protocol-standard status (DNP3, IEC 60870-5-104, ICCP, Modbus, OPC UA, IEC 61850, C37.118.2), the quantum threat class of catalogued OT cryptographic components, cryptographic weaknesses (CWE) disclosed in CISA ICS advisories, and ecosystem signals (federal instruments, CISA's PQC product categories, a vendor desk scan). Baseline date 2026-09-23; advisory evidence through 2026-09-10. Built from doi:10.5281/zenodo.22729882, doi:10.5281/zenodo.22730718 and CBOM Builder v0.1.0.</p>",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "access_right": "open",
+  "keywords": [
+    "post-quantum cryptography",
+    "PQC",
+    "operational technology",
+    "energy sector",
+    "critical infrastructure",
+    "FIPS 203",
+    "FIPS 204",
+    "crypto-agility",
+    "ICS advisories",
+    "CBOM"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22730718",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22729882",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/foikwuogu/energy-ot-pqc-baseline-2026",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22974795",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ],
+  "publication_date": "2026-09-26"
+}

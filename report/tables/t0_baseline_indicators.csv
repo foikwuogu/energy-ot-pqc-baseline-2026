@@ -1,0 +1,10 @@
+id,indicator,value_2026,source
+I1,Energy OT protocol families whose security standard relies on quantum-vulnerable asymmetric cryptography,7 of 7,config/protocol_pqc_status.csv
+I2,Energy OT protocol families with a published PQC mechanism in the standard,0 of 7,config/protocol_pqc_status.csv
+I3,OT cryptographic components broken by Shor's algorithm (CBOM crosswalk),11 of 16,CBOM Builder v0.1.0 crosswalk
+I4,"Energy OT advisories citing any cryptographic weakness, 2026 (1 Jan - 10 Sep)",26.2% (44 of 168),code/02-03
+I5,"Energy OT advisories citing a crypto-agility-debt weakness, 2026",24.4% (41 of 168),code/02-03
+I6,"Energy OT advisories citing hard-coded keys or credentials, 2026",6.5% (11),code/02-03
+I7,OT/ICS categories on CISA's PQC product-categories list,0,config/policy_signals.csv
+I8,"Top energy OT vendors with a public, product-level PQC availability statement (desk scan)",0 of 10,config/vendor_pqc_scan.csv
+I9,"Years from baseline to the federal key-establishment migration deadline (EO 14412, high-value systems)",4.3,PQC crosswalk v1.0 timeline

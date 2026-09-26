@@ -1,0 +1,9 @@
+category,label,cwes,ytd_current,ytd_current_pct,hist,hist_pct
+weak_or_broken_algorithm,"Weak, broken or downgradeable algorithm","CWE-326, CWE-327, CWE-328, CWE-757, CWE-759, CWE-760, CWE-780, CWE-916, CWE-1240",7,4.2,62,4.2
+hardcoded_secrets,Hard-coded keys or credentials,"CWE-259, CWE-321, CWE-798",11,6.5,77,5.3
+credential_protection,Unprotected stored or transmitted credentials,"CWE-256, CWE-257, CWE-260, CWE-261, CWE-522",18,10.7,77,5.3
+key_management,Key management and key exchange,"CWE-320, CWE-322, CWE-323, CWE-324, CWE-325",0,0.0,4,0.3
+cert_signature_validation,"Certificate, signature or integrity validation","CWE-295, CWE-296, CWE-297, CWE-298, CWE-299, CWE-345, CWE-347, CWE-354",6,3.6,48,3.3
+randomness,Insufficient randomness,"CWE-330, CWE-331, CWE-332, CWE-334, CWE-335, CWE-336, CWE-337, CWE-338, CWE-340",4,2.4,27,1.8
+generic_crypto,Cryptographic issues (category),CWE-310,0,0.0,10,0.7
+no_encryption,Missing encryption or cleartext transmission,"CWE-311, CWE-312, CWE-319, CWE-523, CWE-614",8,4.8,83,5.7
