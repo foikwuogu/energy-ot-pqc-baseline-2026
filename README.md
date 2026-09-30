@@ -32,3 +32,7 @@ ONG-OT Vulnerability Prioritization Dataset v1.1 (https://doi.org/10.5281/zenodo
 
 ## Limitations, license, citation
 See docs/LIMITATIONS.md. Code MIT; report, figures and docs CC BY 4.0; derived advisory tables ODbL v1.0. Cite via CITATION.cff.
+
+## AI assistance
+
+**AI assistance:** AI coding tools (Claude, Anthropic) were used for code scaffolding, test fixtures, and documentation drafting. The problem definition, methodology, classification rules, mappings, and analytic decisions are the author's own.
